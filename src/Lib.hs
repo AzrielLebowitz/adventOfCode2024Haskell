@@ -3,6 +3,8 @@ module Lib
   )
 where
 
+import Solver (solver)
+
 solve :: IO ()
 solve = do
-  putStrLn "Nothing to see here"
+  print (solver 1)

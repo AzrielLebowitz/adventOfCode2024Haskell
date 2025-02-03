@@ -25,6 +25,8 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Problems.Problem1
+      Solver
       Utils
   other-modules:
       Paths_advent_of_code
@@ -40,6 +42,8 @@ executable advent-of-code-exe
   main-is: Main.hs
   other-modules:
       Lib
+      Problems.Problem1
+      Solver
       Utils
       Paths_advent_of_code
   hs-source-dirs:
