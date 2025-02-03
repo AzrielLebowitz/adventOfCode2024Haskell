@@ -1,9 +1,11 @@
 module Solver (solver) where
 
 import Problems.Problem1 (problem1p1, problem1p2)
+import Problems.Problem2 (problem2p1)
 
 solver :: Int -> Int -> Int
 solver n p
   | n == 1 && p == 1 = problem1p1
   | n == 1 && p == 2 = problem1p2
+  | n == 2 && p == 1 = problem2p1
   | otherwise = 0
