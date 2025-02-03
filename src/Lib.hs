@@ -7,4 +7,4 @@ import Solver (solver)
 
 solve :: IO ()
 solve = do
-  print (solver 2 1)
+  print (solver 2 2)
