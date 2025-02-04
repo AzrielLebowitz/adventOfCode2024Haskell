@@ -27,6 +27,7 @@ library
       Lib
       Problems.Problem1
       Problems.Problem2
+      Problems.Problem3
       Solver
       Utils
   other-modules:
@@ -45,6 +46,7 @@ executable advent-of-code-exe
       Lib
       Problems.Problem1
       Problems.Problem2
+      Problems.Problem3
       Solver
       Utils
       Paths_advent_of_code
