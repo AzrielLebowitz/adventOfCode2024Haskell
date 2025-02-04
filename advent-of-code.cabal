@@ -28,6 +28,7 @@ library
       Problems.Problem1
       Problems.Problem2
       Problems.Problem3
+      Problems.Problem4
       Solver
       Utils
   other-modules:
@@ -47,6 +48,7 @@ executable advent-of-code-exe
       Problems.Problem1
       Problems.Problem2
       Problems.Problem3
+      Problems.Problem4
       Solver
       Utils
       Paths_advent_of_code
